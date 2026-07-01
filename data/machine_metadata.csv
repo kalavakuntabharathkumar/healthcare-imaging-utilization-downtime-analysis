@@ -1,0 +1,10 @@
+machine_id,age_years,manufacturer,last_service_date
+MRI-101,7.05,GE HealthCare,2023-03-19
+MRI-102,3.75,Siemens Healthineers,2023-01-02
+MRI-103,1.36,GE HealthCare,2023-01-22
+CT-201,7.57,Philips,2023-03-19
+CT-202,5.12,GE HealthCare,2023-02-11
+CT-203,0.99,Philips,2023-01-13
+XR-301,8.78,Canon Medical,2023-02-27
+XR-302,5.47,Canon Medical,2022-12-27
+XR-303,3.17,Philips,2023-01-14
