@@ -1,0 +1,10 @@
+machine_id,machine_type,hospital_site,total_usage_hours,days_observed,available_hours,utilization_rate,total_downtime_hours,ticket_count,mttr_hours,age_years
+CT-201,CT,Riverside General,3337.42,365,8760.0,0.381,73.8,8,9.22,7.57
+CT-202,CT,Lakeview Medical Center,3321.88,365,8760.0,0.3792,108.4,14,7.74,5.12
+CT-203,CT,St. Anne's Hospital,3372.515,363,8712.0,0.3871,29.6,6,4.92,0.99
+MRI-101,MRI,Riverside General,2730.47,365,8760.0,0.3117,96.0,9,10.66,7.05
+MRI-102,MRI,Lakeview Medical Center,2732.815,365,8760.0,0.312,11.9,2,5.94,3.75
+MRI-103,MRI,St. Anne's Hospital,2795.39,365,8760.0,0.3191,9.2,2,4.61,1.36
+XR-301,X-ray,Riverside General,4277.01,365,8760.0,0.4882,86.4,10,8.64,8.78
+XR-302,X-ray,Lakeview Medical Center,4308.86,365,8760.0,0.4919,81.8,6,13.64,5.47
+XR-303,X-ray,St. Anne's Hospital,4333.2,365,8760.0,0.4947,38.0,4,9.5,3.17

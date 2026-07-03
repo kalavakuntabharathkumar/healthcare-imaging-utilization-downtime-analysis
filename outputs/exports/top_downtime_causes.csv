@@ -1,0 +1,4 @@
+issue_type,occurrences,total_downtime_hours
+Calibration drift,15,137.5
+Generator fault,6,86.0
+Detector fault,9,73.4
