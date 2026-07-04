@@ -1,0 +1,36 @@
+Healthcare Imaging Equipment Utilization & Downtime Analysis
+Statistical test: does machine age predict total downtime hours?
+====================================================================== 
+
+Sample size (machines): 9 
+
+--- Pearson correlation (age_years vs total_downtime_hours) ---
+r = 0.7717
+p-value = 0.0149
+95% CI = [0.2206, 0.9493]
+
+--- Linear regression: total_downtime_hours ~ age_years ---
+
+Call:
+lm(formula = total_downtime_hours ~ age_years, data = data)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-36.293 -15.109  -4.011  12.634  45.605 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)  
+(Intercept)    8.224     18.091   0.455   0.6632  
+age_years     10.659      3.320   3.210   0.0149 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 25.56 on 7 degrees of freedom
+Multiple R-squared:  0.5955,	Adjusted R-squared:  0.5377 
+F-statistic:  10.3 on 1 and 7 DF,  p-value: 0.01486
+
+
+--- Interpretation ---
+Statistically significant at alpha = 0.05 (p = 0.0149). Machine age is associated with total downtime hours. 
+Correlation direction: positive (r = 0.772). On average, each additional year of age is associated with a change of 10.66 downtime hours over the observation window, holding the simple linear model's assumptions.
+R-squared = 0.595: age alone explains 59.5% of the variance in total downtime hours across the fleet.
